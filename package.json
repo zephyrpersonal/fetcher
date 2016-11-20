@@ -1,0 +1,31 @@
+{
+  "name": "fetchman",
+  "version": "1.0.0",
+  "description": "simple remote fetch api for client and server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c rollup.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zephyrpersonal/fetchman.git"
+  },
+  "keywords": [
+    "fetch"
+  ],
+  "author": "zephyr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zephyrpersonal/fetchman/issues"
+  },
+  "homepage": "https://github.com/zephyrpersonal/fetchman#readme",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1"
+  },
+  "devDependencies": {
+    "babel-preset-es2015-rollup": "^1.2.0",
+    "rollup": "^0.36.3",
+    "rollup-plugin-babel": "^2.6.1"
+  }
+}
